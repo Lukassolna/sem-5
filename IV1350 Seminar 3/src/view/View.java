@@ -72,7 +72,7 @@ public class View {
 		        
 		    } catch (DatabaseException a) {
 		    	logWriter.logException(a);
-		    	System.out.println("Failed to connect to databse");
+		    	System.out.println("Failed to connect to database");
 		    	
 		    	
 		      
