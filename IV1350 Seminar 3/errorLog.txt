@@ -1,0 +1,6 @@
+2023-05-29T14:26:20.492858500, Exception thrown: Database not found, try reconnecting
+integration.DatabaseException: Database not found, try reconnecting
+	at integration.ExternalInventorySystem.fetchItemInformation(ExternalInventorySystem.java:70)
+	at controller.Controller.enterIdentifier(Controller.java:56)
+	at view.View.start(View.java:63)
+	at startup.Main.main(Main.java:42)
