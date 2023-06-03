@@ -48,8 +48,9 @@ public class Controller {
 	 * 
 	 * @param itemID the ID of the item to look up
 	 * @return true if the item is found and added to the sale, false otherwise
-	 * @throws DatabaseException   if there is an error accessing the database
+	
 	 * @throws NoItemFoundException if the item with the specified ID is not found
+	 * @throws DatabaseException   if there is an error accessing the database
 	 */
 	public boolean enterIdentifier(int itemID) throws NoItemFoundException, DatabaseException {
 	   
